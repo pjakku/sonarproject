@@ -13,7 +13,7 @@
     <repository>
         <id>central</id>
         <name>bamboo-releases</name>
-        <url>http://3.14.88.119:8081/artifactory/webapp/#/home</url>
+        <url>http://3.14.88.119:8081/artifactory/webapp/#/artifacts/browse/tree/General/bamboo</url>
     </repository>
 </distributionManagement>
   <dependencies>
