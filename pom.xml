@@ -9,7 +9,13 @@
 
   <name>bitbucket.pro</name>
   <url>http://maven.apache.org</url>
-
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>bamboo-releases</name>
+        <url>http://3.14.88.119:8081/artifactory/webapp/#/home</url>
+    </repository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -24,13 +30,6 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-35-229.us-east-2.compute.internal-releases</name>
-        <url>http://3.14.88.119:8081/artifactory/bamboo</url>
-    </repository>
-</distributionManagement>
   <build>
     <plugins>
       <plugin>
