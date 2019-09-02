@@ -9,12 +9,26 @@
 
   <name>bitbucket.pro</name>
   <url>http://maven.apache.org</url>
-  <distributionManagement>
-    <repository>
+  
+<distributionManagement>
+ <!-- Publish the versioned releases here -->
+  <repository>
         <id>central</id>
         <name>bamboo-releases</name>
         <url>http://3.14.88.119:8081/artifactory/webapp/#/artifacts/browse/tree/General/bamboo</url>
     </repository>
+  <repository>
+  <id>deployment</id>
+  <name>Releases</name>
+  <url>http://13.233.47.87:8081/repository/maven-releases/</url>
+ </repository>
+
+ <!-- Publish the versioned releases here -->
+ <snapshotRepository>
+  <id>deployment</id>
+  <name>snapshots</name>
+  <url>http://13.233.47.87:8081/repository/maven-snapshots/</url>
+ </snapshotRepository>
 </distributionManagement>
   <dependencies>
     <dependency>
