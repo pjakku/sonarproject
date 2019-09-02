@@ -12,11 +12,7 @@
   
 <distributionManagement>
  <!-- Publish the versioned releases here -->
-  <repository>
-        <id>central</id>
-        <name>bamboo-releases</name>
-        <url>http://3.14.88.119:8081/artifactory/webapp/#/artifacts/browse/tree/General/bamboo</url>
-    </repository>
+  
   <repository>
   <id>deployment</id>
   <name>Releases</name>
